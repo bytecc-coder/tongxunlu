@@ -1,0 +1,82 @@
+/*移动端*/
+
+body,h1,h2,h3,h4,h5,h6,table,p,form,input,textarea,ol,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+/*去除浏览器自带格式*/
+a{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 56px; } }
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 60px; } }
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 70px; } }
+
+/*
+分类的圆角矩形
+p{
+    color: #3bacfe;
+    font-weight: bold;
+    font-size: 0.2rem;
+    height: 0.32rem;
+    letter-spacing: 0.01rem;
+    text-align: center;
+    padding: 0.16rem 0.46rem;
+    background-color: rgba(59,172,254,0.1);
+    border-radius: 0.26rem;
+}
+
+
+*/
+/*另一套title颜色样式
+.text_line span{
+    color: #34da87;
+}
+.text_line > .text_line_front{
+    color: #4f5b64;
+}
+.text_line_front::before {
+    background: #34da87;
+}
+
+*/
